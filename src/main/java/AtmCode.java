@@ -244,13 +244,13 @@ class AtmCode {
                     int tenBill = moneyStorage.getTenBill();
                     int fiveBill = moneyStorage.getFiveBill();
 
-                    System.out.println(String.format("В наличии купюры номиналом 20000р %s щт. Добавьте необходимое количесво купюр", twentyBill));
+                    System.out.println(String.format("В наличии купюры номиналом 20000р %s шт. Добавьте необходимое количесво купюр", twentyBill));
                     moneyStorage.setTwentyBill(twentyBill + sc.nextInt());
 
-                    System.out.println(String.format("В наличии купюры номиналом 10000р %s щт. Добавьте необходимое количесво купюр", tenBill));
+                    System.out.println(String.format("В наличии купюры номиналом 10000р %s шт. Добавьте необходимое количесво купюр", tenBill));
                     moneyStorage.setTenBill(tenBill + sc.nextInt());
 
-                    System.out.println(String.format("В наличии купюры номиналом 5000р %s щт. Добавьте необходимое количесво купюр", fiveBill));
+                    System.out.println(String.format("В наличии купюры номиналом 5000р %s шт. Добавьте необходимое количесво купюр", fiveBill));
                     moneyStorage.setFiveBill(fiveBill + sc.nextInt());
 
                     System.out.println(String.format("В наличии купюры 20000р %s шт., 10000р %s шт., 5000р %s шт., общей суммой %s р.", moneyStorage.getTwentyBill(), moneyStorage.getTenBill(), moneyStorage.getFiveBill(), moneyStorage.getBalance()));
